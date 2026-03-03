@@ -1,4 +1,4 @@
-baseURL = 'https://hgladthunder999.github.io/FirstHugoWebsite/'
+baseURL = 'https://HGladThunder999.github.io/Resume/'
 languageCode = 'en-us'
 title = 'John Doe Resume'
 theme = 'gohugo-theme-ananke'
