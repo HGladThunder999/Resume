@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hgladthunder999.github.io/FirstHugoWebsite/'
 languageCode = 'en-us'
 title = 'John Doe Resume'
 theme = 'gohugo-theme-ananke'

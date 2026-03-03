@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on John Doe Resume</title>
-    <link>https://example.org/posts/</link>
+    <link>https://hgladthunder999.github.io/FirstHugoWebsite/posts/</link>
     <description>Recent content in Posts on John Doe Resume</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Mar 2026 23:55:52 -0600</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hgladthunder999.github.io/FirstHugoWebsite/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://example.org/posts/intro/</link>
+      <link>https://hgladthunder999.github.io/FirstHugoWebsite/posts/intro/</link>
       <pubDate>Mon, 02 Mar 2026 23:55:52 -0600</pubDate>
-      <guid>https://example.org/posts/intro/</guid>
+      <guid>https://hgladthunder999.github.io/FirstHugoWebsite/posts/intro/</guid>
       <description>&lt;p&gt;Welcome to my Portfolio website, Here I will be showcasing my CV.&lt;/p&gt;&#xA;&lt;p&gt;My name is John Doe. I define myself as being an Enthusiastic and detail-oriented junior tech professional with a passion for problem-solving and continuous learning. I am looking an entry-level role where I can contribute to innovative projects and grow as a developer/technologist in a collaborative team environment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Education</title>
-      <link>https://example.org/posts/education/</link>
+      <link>https://hgladthunder999.github.io/FirstHugoWebsite/posts/education/</link>
       <pubDate>Mon, 02 Mar 2026 23:52:44 -0600</pubDate>
-      <guid>https://example.org/posts/education/</guid>
+      <guid>https://hgladthunder999.github.io/FirstHugoWebsite/posts/education/</guid>
       <description>&lt;p&gt;Bachelor of Science in Computer Science Any University, Any City&lt;/p&gt;&#xA;&lt;h4 id=&#34;aug-2022---aug-2026&#34;&gt;&lt;em&gt;Aug 2022 - Aug 2026&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;p&gt;GPA: 3.0&#xA;Relevant Courses: Data Structures, Web Dev, Databases, Software Engineering&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skills</title>
-      <link>https://example.org/posts/skills/</link>
+      <link>https://hgladthunder999.github.io/FirstHugoWebsite/posts/skills/</link>
       <pubDate>Mon, 02 Mar 2026 23:51:42 -0600</pubDate>
-      <guid>https://example.org/posts/skills/</guid>
+      <guid>https://hgladthunder999.github.io/FirstHugoWebsite/posts/skills/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: Python, Java, HTML, C++, JavaScript&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools/Frameworks&lt;/strong&gt;:Node.js, Hugo, Linux, React&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;:databases&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;other skills&lt;/strong&gt;:Verbal and written communication&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Certification</title>
-      <link>https://example.org/posts/certification/</link>
+      <link>https://hgladthunder999.github.io/FirstHugoWebsite/posts/certification/</link>
       <pubDate>Mon, 02 Mar 2026 23:50:36 -0600</pubDate>
-      <guid>https://example.org/posts/certification/</guid>
+      <guid>https://hgladthunder999.github.io/FirstHugoWebsite/posts/certification/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Completed a hands-on program covering troubleshooting, networking, system administration, and security fundamentals.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Contact Information</title>
-      <link>https://example.org/posts/contact/</link>
+      <link>https://hgladthunder999.github.io/FirstHugoWebsite/posts/contact/</link>
       <pubDate>Mon, 02 Mar 2026 23:48:08 -0600</pubDate>
-      <guid>https://example.org/posts/contact/</guid>
+      <guid>https://hgladthunder999.github.io/FirstHugoWebsite/posts/contact/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Phone&lt;/strong&gt;:+123456789&#xA;&lt;strong&gt;Email&lt;/strong&gt;:johndoe@gmail.com&lt;/p&gt;</description>
     </item>
   </channel>
