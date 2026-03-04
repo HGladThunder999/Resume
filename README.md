@@ -13,58 +13,95 @@ GitHub is a forge, Which are website used to collaboratively work on projects. A
 ## Set of Pre-requisities
 
 1) GitHub Account:
-   required to view the project and deploy the project using a local GitHub repository 
-2) Git installed on personal system:
+   required to view the project and deploy the project using a local GitHub repository
+2) Git installed on personal system and knowledge regarding the commands listed:
    In order to clone, commit to, or add to, the repository Git must be needed
-3) Hugo installed on personal system:
+
+   To install GIT on your system head over to the following link and choose your operating system:
+   
+   [Install Git](https://git-scm.com/install/)
+
+   It would be enough in the case of this project to know the following commands:
+   - `git add`
+   - `git commit`
+   - `git push`
+   - `git clone`
+   - `git status`
+   - `git submodule add`
+   
+4) Hugo installed on personal system:
    In order to make changes to the site and for them to be visible in the deployment of the website, Hugo is required on the local system.
-4) Visual Studio Code (optional):
-   In order to add further content to the generated website, Having VSCode is much more organized and efficient however the files. 
+   To install Hugo on you system head over to the following link and choose your operating system:
 
-In order to host the website on a local machine, download the repository and then use the public folder's contents to host the website. In order to perform this a github account is required. If contribution to the project is to be made then an elementary level of Git is required. making use of GIT using command prompt or gitBash
+   [Install Hugo](https://gohugo.io/installation/)
+   
+5) Visual Studio Code (optional):
+   In order to add further content to the generated website, Having VSCode is much more organized and efficient however the files.
+   To install Visual Studio code on you system head over to the following link and choose your operating system:
 
+   [Install Visual Studio Code](https://code.visualstudio.com/)
+
+5)If you want to make changes to the project or use Hugo then it is required for you to knwo the following commands:
+   - `cd`
+   - `mkdir`
+   - `rmdir`
+   - `ren`
+   - `hugo`
+   - `hugo new site`
+   - `hugo new content`
+   - `code`
+   - `dir`
+
+   Most of the changes to the project can be done by making use of the above commands
+   
+   
+
+In order to host the website on a local machine, download the repository and then use the public folder's contents to host the website. 
 
 ## Set of Instructions 
-##### Option - 1: Downloading as a ZIP file
+##### Option  1: Downloading as a ZIP file
 If you dont want to work with Git, then you can download the project as a ZIP folder, and mannually change the files without using command prompt.  
-- **Step - 1**
+- **Step  1**
 Locate the green button titled code.
-- **Step - 2**
+- **Step  2**
 Make sure the dropdown under the local window appears.
-- **Step - 3**
-Select the  `Download Zip`.
-- **Step - 4**
-From the file manager extract the folder.
-- **Step - 5**
-Make use of the `public` folder present in-order to host from your end.
+- **Step  3**
+Select the  `Download Zip` option.
+- **Step  4**
+From the file manager extract the folder. This can be done by clicking the zip folder and and copying the file to some other location
 
+Although you have downladed the zip folder it is recommended to use command line and hugo in order to make changes and deploy them.
 If you wish to host the downloaded file, then on any hosting service, upload the folder `/docs` to it.
 
 ##### Option - 2: Cloning the repository
 If you wish to contribute to the project, you will need to make use of git and clone the repository on your local system.
-- **Step - 1**
 Using git bash or the command prompt type the following command
 
 `git clone https://https://github.com/HGladThunder999/Resume.git`
-- **Step - 2**
-change the directory to Resume using the command:
 
-`cd Resume`
-- **Step - 3**
-In order to add a new post type the command :
+##### contributing to the project
+
+- Head over to commmand prompt on windows or the terminal on mac and change the directory to `Resume\quickstart` using the command:
+
+`cd Resume\quickstart`
+
+- In order to add a new post type the command:
 
 `hugo new content content/posts/NEWFILE.md`
 
-Then head over to the quickstart directory and type the following command in order to view you new content on the website:
+- Then head over to the quickstart directory and type the following command in order to view you new content on the website:
 
 `hugo server -buildDrafts`
 
-If you wish to preview the site then type the following command:
+- Preview website using the following command:
 
 `hugo server`
 
-In order to generate the website type the command `hugo` while in the quickstart directory. Then rename the public folder to docs if you wish to host using github pages or upload the public folder to any forge or hostring service to host the site.
-- **Step - 4**
+To generate the website, i.e., to generate the files that will enable us to host the website type the command:
+`hugo` while in the quickstart directory. Then rename the public folder to docs if you wish to host using github pages or upload the public folder to any forge or hosting service to host the site.
+
+##### Making changes using Command Line and Git
+
 In order to edit a pre-exisitng content type the command:
 
 `cd content\posts`
@@ -85,7 +122,7 @@ If you wish to deploy these changes type head over to the `quickstart` directory
 
 `hugo`
 
-Then delete the docs folder:
+Then delete the preexisting `docs` folder:
 
 `rmdir /s/q docs`
 
@@ -99,6 +136,7 @@ Headover to the quickstart directory and type the following
 `git commit -M "Making changes on the website"
 
 `git push`
+
 Once these changes are commited then github automatically deploys them 
 
 ## Further Resources/Readings 
@@ -137,11 +175,13 @@ Yes on the following:
 - etc.
 
 6. What if GitHub Pages is not working?
-Make sure you are in the correct branch from the pages option of the settings of your repository for this site `main` was used, and make sure the correct folder is selected for this website specifically `\root` was used
+Make sure you are in the correct branch from the pages option of the settings of your repository for this site `main` was used, and make sure the correct folder is selected for this website specifically `\docs` was used
 
 ## Credits:
 [Resource used to create the site](https://youtu.be/zrmeOu8DYyw?si=WVW8nuCYE4d8Bat3)
+
 [Resource used for markdown](https://www.markdownguide.org/cheat-sheet/)
+
 [Resource used for Git](https://www.reddit.com/r/git/comments/zuq54x/a_beginners_guide_to_git_a_comprehensive/)
 
 
