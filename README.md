@@ -59,7 +59,37 @@ GitHub is a forge, Which are website used to collaboratively work on projects. A
 In order to host the website on a local machine, download the repository and then use the public folder's contents to host the website. 
 
 ## Set of Instructions 
-##### Option  1: Downloading as a ZIP file
+#### Creating a static site from scratch using hugo
+- **Step 1**
+head over to the command prompt or the terminal
+- **Step 2**
+Navigate to the directory you wish to store the files generated using
+
+`cd <dirName>`
+
+if you want to create a new one then type
+
+`mkdir <dirName>`
+
+- **Step 3**
+In your directory type the following commmand in order to generate a hugo project:
+
+`hugo new site quickstart`
+
+- **Step 4**
+Navigate to the quickstart directory and generate the content 
+
+`hugo new content content/posts/NEWFILE.md`
+
+- **Step 5**
+navigate to the quickstart directory and type
+
+`hugo server -buildDrafts` 
+
+this command allows you to preview the website using a localhost (a term for when you device itself hosts the website). in order to generate the files pertaining to the website type the following:
+
+`hugo`
+#### Downloading the site files manually
 If you dont want to work with Git, then you can download the project as a ZIP folder, and mannually change the files without using command prompt.  
 - **Step  1**
 Locate the green button titled code.
@@ -73,7 +103,7 @@ From the file manager extract the folder. This can be done by clicking the zip f
 Although you have downladed the zip folder it is recommended to use command line and hugo in order to make changes and deploy them.
 If you wish to host the downloaded file, then on any hosting service, upload the folder `/docs` to it.
 
-##### Option - 2: Cloning the repository
+##### Cloning the repository
 If you wish to contribute to the project, you will need to make use of git and clone the repository on your local system.
 Using git bash or the command prompt type the following command
 
@@ -183,6 +213,8 @@ Make sure you are in the correct branch from the pages option of the settings of
 [Resource used for markdown](https://www.markdownguide.org/cheat-sheet/)
 
 [Resource used for Git](https://www.reddit.com/r/git/comments/zuq54x/a_beginners_guide_to_git_a_comprehensive/)
+
+Class Group Member: Caius Peterson
 
 
 
