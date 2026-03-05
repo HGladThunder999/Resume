@@ -10,6 +10,8 @@ In order to Edit and create `.toml` and `.md` files VSCode was used. The `.toml`
 
 GitHub is a forge, Which are website used to collaboratively work on projects. A component of Github is Github pages which is used to deploy the code in the repository. The deployed code by default is hosted on `https://GITHUBUSERNAME.github.io/PROJECTNAME/` 
 
+Throughout this document the principles covered by _Andrew Etter_ in their book _Modern Technical Writing: An Introduction to Software Documentation_ are followed.
+
 ## Set of Pre-requisities
 
 1) GitHub Account:
@@ -58,10 +60,15 @@ GitHub is a forge, Which are website used to collaboratively work on projects. A
 
 In order to host the website on a local machine, download the repository and then use the public folder's contents to host the website. 
 
+
+
 ## Set of Instructions 
+
+This section is divided into subsections that are referred to as topics by _Andrew Etter_ in their book _Modern Technical Writing: An Introduction to Software Documentation_. It makes it helps reduce duplication of content. 
+
 #### Creating a static site from scratch using hugo
 - **Step 1**
-head over to the command prompt or the terminal
+Head over to the command prompt or the terminal
 - **Step 2**
 Navigate to the directory you wish to store the files generated using
 
@@ -72,9 +79,12 @@ if you want to create a new one then type
 `mkdir <dirName>`
 
 - **Step 3**
-In your directory type the following commmand in order to generate a hugo project:
+Type the following commmand in order to generate a hugo project:
 
 `hugo new site quickstart`
+
+- **Step 4**
+To set the name of the website, Open the `.toml` file manually, using command prompt, or VSCode and change the `Title` to the name you prefer.
 
 - **Step 4**
 Navigate to the quickstart directory and generate the content 
@@ -109,28 +119,33 @@ Using git bash or the command prompt type the following command
 
 `git clone https://https://github.com/HGladThunder999/Resume.git`
 
-##### contributing to the project
+##### Generating the Altered project
 
-- Head over to commmand prompt on windows or the terminal on mac and change the directory to `Resume\quickstart` using the command:
+ 1. Head over to commmand prompt on windows or the terminal on mac and change the directory to `posts` using the command:
 
-`cd Resume\quickstart`
+`cd Resume\quickstart\content\posts`
 
-- In order to add a new post type the command:
+2. To edit a prexisting `.md` or `.toml` file, you can open it using command prompt or VSCode
+using command prompt
 
-`hugo new content content/posts/NEWFILE.md`
+`<FILE.EXTENSION>`
 
-- Then head over to the quickstart directory and type the following command in order to view you new content on the website:
+using VSCode
+
+`code <FILE.EXTENSION>`
+
+3. After making your changes head over to the quickstart directory and type the following command to submit changes:
 
 `hugo server -buildDrafts`
 
-- Preview website using the following command:
+4. Preview website using the following command:
 
 `hugo server`
 
-To generate the website, i.e., to generate the files that will enable us to host the website type the command:
+5. To generate the website, i.e., to generate the files that will enable us to host the website type the command:
 `hugo` while in the quickstart directory. Then rename the public folder to docs if you wish to host using github pages or upload the public folder to any forge or hosting service to host the site.
 
-##### Making changes using Command Line and Git
+##### Pushing changes to Git
 
 In order to edit a pre-exisitng content type the command:
 
@@ -181,7 +196,13 @@ Once these changes are commited then github automatically deploys them
 
 [Video on how to create a website using Hugo and deploy using github](https://youtu.be/zrmeOu8DYyw?si=WVW8nuCYE4d8Bat3)
 
-[Basic Git Command](https://www.atlassian.com/git/glossary)123
+[Basic Git Command](https://www.atlassian.com/git/glossary)
+
+[Modern Technical Writing by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+
+
+
+
 
 ## FAQ
 1. What is Markdown?
@@ -213,6 +234,8 @@ Make sure you are in the correct branch from the pages option of the settings of
 [Resource used for markdown](https://www.markdownguide.org/cheat-sheet/)
 
 [Resource used for Git](https://www.reddit.com/r/git/comments/zuq54x/a_beginners_guide_to_git_a_comprehensive/)
+
+[Modern Technical Writing by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 
 Class Group Member: Caius Peterson
 
